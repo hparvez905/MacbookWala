@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook Wala</title>
+
+    <!-- tailwind css conncetor -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- heading starts -->
+
+<header>
+
+</header>
+<!-- heading ends  -->
+
+ <!-- main starts  -->
+
+<main>
+    <div>
+        <div class="grid grid-cols-2 p-16 gap-16 border-b-2 border-fuchsia-600 ">
+        <div class="" >
+            <img src="images/mac.png" alt="">
+        </div>
+
+        <!-- mac detials section  -->
+       <div>
+           <!-- mac heading section  -->
+        <div class="">
+            <!-- mac heading -->
+            <h1 class="text-5xl font-semibold">Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+           
+            <!-- mac details  -->
+            <p class="mt-2 text-lg p-2"> Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Keyboard-US English</p>
+        </div>
+        <!-- mac heading section ends  -->
+
+        <!-- details section  -->
+
+        <!-- memory details  -->
+
+       <div>
+        <div>
+            <h2 class="mb-2 mt-6 font-bold">Memory</h2>
+           <div class="flex gap-2">
+            <div>
+                <button id="lessRam" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 " >8GB unified memory</button>
+            </div>
+            <div>
+                <button id="highRam" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 ">16GB unified memory</button>
+            </div>
+           </div>
+        </div>
+        <div>
+
+            <!-- storage details  -->
+
+            <h2 class="mb-2 mt-12 font-bold">Storage</h2>
+           <div class="flex gap-2">
+            <div>
+                <button id="lowStorage" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 ">256GB SSD storage</button>
+            </div>
+            <div>
+                <button id="midStorage" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 ">512GB SSD storage</button>
+            </div>
+            <div>
+                <button id="highStorage" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 ">1T SSD storage</button>
+            </div>
+           </div>
+        </div>
+
+        <!-- Delivery details  -->
+        <div>
+
+            <h2 class="mb-2 mt-12 font-bold">Choose Your Delivery Option</h2>
+           <div class="flex gap-2 focus:border-blue-500">
+            <div>
+                <button id="lateDelivery" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 ">Friday,25 Aug FREE Prime Delivery </button>
+            </div>
+            <div>
+                <button id="fastDelivery" class=" p-2 border-2 border-red-500 border-opacity-75 rounded hover:bg-red-300 focus:border-blue-500 ">Friday,21 Aug Delivery charge $30</button>
+            </div>
+           </div>
+        </div>
+       </div>
+
+        <!-- summery part -->
+
+        <div class="mt-20">
+          <div class=" grid grid-cols-2 w-2/5 border-b-2 border-fuchsia-600 mb-2 ">
+            <div>
+                <h3 class="font-bold">Best Price</h3>
+            </div>
+               <div>
+                <h3  class="font-bold ml-8">$1299 </h3>
+               </div>
+          </div>
+          <div class=" grid grid-cols-2 w-2/5 border-b-2 border-fuchsia-600 mb-2">
+            <div>
+                <h3 class="font-bold">Extra Memory Cost</h3>
+            </div>
+               <div>
+                <h3 class="font-bold ml-8">$<span id="extraMemoryPrice">0</span></h3>
+               </div>
+          </div>
+          <div class=" grid grid-cols-2 w-2/5 border-b-2 border-fuchsia-600 mb-2">
+            <div>
+                <h3 class="font-bold">Extra Storage Cost</h3>
+            </div>
+               <div>
+                <h3 class="font-bold ml-8">$<span id="extraStoragePrice">0</span></h3>
+               </div>
+          </div>
+          <div class=" grid grid-cols-2 w-2/5 border-b-2 border-black mb-2 ">
+            <div>
+                <h3 class="font-bold">Delivery Cost</h3>
+            </div>
+               <div>
+                <h3 class="font-bold ml-8">$ <span id="deliveryCost">0</span></h3>
+               </div>
+          </div>
+          <div class=" grid grid-cols-2 w-2/5 border-b-2 border-fuchsia-600 mb-2">
+            <div>
+                <h3  class="font-bold">Total Price</h3>
+            </div>
+               <div>
+                <h3 class="font-bold ml-8">$<span id="totalCost">1299</span></h3>
+               </div>
+          </div>
+          <!-- promo part  -->
+          <div class=" mt-8 w-2/5 mb-2">
+            <div>
+                <h3 class="font-semibold">Use Promo Code  </h3>
+                <div class="flex gap-2 mt-2">
+                    <div class="">
+                        <input id="inputCode" type="text" class="border-2 border-gray-500 rounded">
+                       </div>
+                       <div>
+                        <button id="applyButton" class="border-2 border-green-300 bg-red-600 rounded px-2 text-white">Apply</button>
+                       </div>
+                </div>
+            </div>
+              
+          </div>
+            
+            
+        </div>
+        <!-- price div ends -->
+       </div>
+    </div>
+    </div>
+    <!-- last part add  -->
+
+    <!-- final price  -->
+
+    <div class="mt-2 mb-4">
+        <h1 id="" class="text-4xl font-semibold text-center">Total:$<span id="finalCost">1299</span></h1>
+    </div>
+
+  
+    
+</main>
+<!-- main ends  -->
+
+<footer>
+
+</footer>
+
+ <!-- js conncetor  -->
+ 
+<script src="total.js"></script>
+</body>
+</html>
